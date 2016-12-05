@@ -13,10 +13,11 @@ Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchO
 ## Usage
 
 ```swift
-let bytes = [...]
 let encoding = ISO8859.part1
-string = String(bytes: bytes, iso8859Encoding: encoding)
+string = String(bytes: [...], iso8859Encoding: encoding)
 ```
+
+[See Examples](#examples)
 
 ## Supported Character Sets
 
