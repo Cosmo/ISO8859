@@ -11,6 +11,78 @@
 		45A1CC5D1DF5EE3500083E29 /* ISO8859.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A1CC4B1DF5EE3500083E29 /* ISO8859.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45A1CC5E1DF5EE3500083E29 /* ISO8859.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A1CC4B1DF5EE3500083E29 /* ISO8859.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45A1CC5F1DF5EE3500083E29 /* ISO8859.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A1CC4B1DF5EE3500083E29 /* ISO8859.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A1CC731DF5F06400083E29 /* CharacterCodingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */; };
+		45A1CC741DF5F06400083E29 /* CharacterCodingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */; };
+		45A1CC751DF5F06400083E29 /* CharacterCodingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */; };
+		45A1CC761DF5F06400083E29 /* CharacterCodingMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */; };
+		45A1CC771DF5F06400083E29 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC621DF5F06400083E29 /* Encoding.swift */; };
+		45A1CC781DF5F06400083E29 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC621DF5F06400083E29 /* Encoding.swift */; };
+		45A1CC791DF5F06400083E29 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC621DF5F06400083E29 /* Encoding.swift */; };
+		45A1CC7A1DF5F06400083E29 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC621DF5F06400083E29 /* Encoding.swift */; };
+		45A1CC7B1DF5F06400083E29 /* ISO8859_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC631DF5F06400083E29 /* ISO8859_1.swift */; };
+		45A1CC7C1DF5F06400083E29 /* ISO8859_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC631DF5F06400083E29 /* ISO8859_1.swift */; };
+		45A1CC7D1DF5F06400083E29 /* ISO8859_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC631DF5F06400083E29 /* ISO8859_1.swift */; };
+		45A1CC7E1DF5F06400083E29 /* ISO8859_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC631DF5F06400083E29 /* ISO8859_1.swift */; };
+		45A1CC7F1DF5F06400083E29 /* ISO8859_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC641DF5F06400083E29 /* ISO8859_2.swift */; };
+		45A1CC801DF5F06400083E29 /* ISO8859_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC641DF5F06400083E29 /* ISO8859_2.swift */; };
+		45A1CC811DF5F06400083E29 /* ISO8859_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC641DF5F06400083E29 /* ISO8859_2.swift */; };
+		45A1CC821DF5F06400083E29 /* ISO8859_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC641DF5F06400083E29 /* ISO8859_2.swift */; };
+		45A1CC831DF5F06400083E29 /* ISO8859_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC651DF5F06400083E29 /* ISO8859_3.swift */; };
+		45A1CC841DF5F06400083E29 /* ISO8859_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC651DF5F06400083E29 /* ISO8859_3.swift */; };
+		45A1CC851DF5F06400083E29 /* ISO8859_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC651DF5F06400083E29 /* ISO8859_3.swift */; };
+		45A1CC861DF5F06400083E29 /* ISO8859_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC651DF5F06400083E29 /* ISO8859_3.swift */; };
+		45A1CC871DF5F06400083E29 /* ISO8859_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC661DF5F06400083E29 /* ISO8859_4.swift */; };
+		45A1CC881DF5F06400083E29 /* ISO8859_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC661DF5F06400083E29 /* ISO8859_4.swift */; };
+		45A1CC891DF5F06400083E29 /* ISO8859_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC661DF5F06400083E29 /* ISO8859_4.swift */; };
+		45A1CC8A1DF5F06400083E29 /* ISO8859_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC661DF5F06400083E29 /* ISO8859_4.swift */; };
+		45A1CC8B1DF5F06400083E29 /* ISO8859_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC671DF5F06400083E29 /* ISO8859_5.swift */; };
+		45A1CC8C1DF5F06400083E29 /* ISO8859_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC671DF5F06400083E29 /* ISO8859_5.swift */; };
+		45A1CC8D1DF5F06400083E29 /* ISO8859_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC671DF5F06400083E29 /* ISO8859_5.swift */; };
+		45A1CC8E1DF5F06400083E29 /* ISO8859_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC671DF5F06400083E29 /* ISO8859_5.swift */; };
+		45A1CC8F1DF5F06400083E29 /* ISO8859_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC681DF5F06400083E29 /* ISO8859_6.swift */; };
+		45A1CC901DF5F06400083E29 /* ISO8859_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC681DF5F06400083E29 /* ISO8859_6.swift */; };
+		45A1CC911DF5F06400083E29 /* ISO8859_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC681DF5F06400083E29 /* ISO8859_6.swift */; };
+		45A1CC921DF5F06400083E29 /* ISO8859_6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC681DF5F06400083E29 /* ISO8859_6.swift */; };
+		45A1CC931DF5F06400083E29 /* ISO8859_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC691DF5F06400083E29 /* ISO8859_7.swift */; };
+		45A1CC941DF5F06400083E29 /* ISO8859_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC691DF5F06400083E29 /* ISO8859_7.swift */; };
+		45A1CC951DF5F06400083E29 /* ISO8859_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC691DF5F06400083E29 /* ISO8859_7.swift */; };
+		45A1CC961DF5F06400083E29 /* ISO8859_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC691DF5F06400083E29 /* ISO8859_7.swift */; };
+		45A1CC971DF5F06400083E29 /* ISO8859_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */; };
+		45A1CC981DF5F06400083E29 /* ISO8859_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */; };
+		45A1CC991DF5F06400083E29 /* ISO8859_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */; };
+		45A1CC9A1DF5F06400083E29 /* ISO8859_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */; };
+		45A1CC9B1DF5F06400083E29 /* ISO8859_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */; };
+		45A1CC9C1DF5F06400083E29 /* ISO8859_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */; };
+		45A1CC9D1DF5F06400083E29 /* ISO8859_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */; };
+		45A1CC9E1DF5F06400083E29 /* ISO8859_9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */; };
+		45A1CC9F1DF5F06400083E29 /* ISO8859_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */; };
+		45A1CCA01DF5F06400083E29 /* ISO8859_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */; };
+		45A1CCA11DF5F06400083E29 /* ISO8859_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */; };
+		45A1CCA21DF5F06400083E29 /* ISO8859_10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */; };
+		45A1CCA31DF5F06400083E29 /* ISO8859_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */; };
+		45A1CCA41DF5F06400083E29 /* ISO8859_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */; };
+		45A1CCA51DF5F06400083E29 /* ISO8859_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */; };
+		45A1CCA61DF5F06400083E29 /* ISO8859_11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */; };
+		45A1CCA71DF5F06400083E29 /* ISO8859_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */; };
+		45A1CCA81DF5F06400083E29 /* ISO8859_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */; };
+		45A1CCA91DF5F06400083E29 /* ISO8859_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */; };
+		45A1CCAA1DF5F06400083E29 /* ISO8859_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */; };
+		45A1CCAB1DF5F06400083E29 /* ISO8859_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */; };
+		45A1CCAC1DF5F06400083E29 /* ISO8859_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */; };
+		45A1CCAD1DF5F06400083E29 /* ISO8859_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */; };
+		45A1CCAE1DF5F06400083E29 /* ISO8859_14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */; };
+		45A1CCAF1DF5F06400083E29 /* ISO8859_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC701DF5F06400083E29 /* ISO8859_15.swift */; };
+		45A1CCB01DF5F06400083E29 /* ISO8859_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC701DF5F06400083E29 /* ISO8859_15.swift */; };
+		45A1CCB11DF5F06400083E29 /* ISO8859_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC701DF5F06400083E29 /* ISO8859_15.swift */; };
+		45A1CCB21DF5F06400083E29 /* ISO8859_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC701DF5F06400083E29 /* ISO8859_15.swift */; };
+		45A1CCB31DF5F06400083E29 /* ISO8859_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC711DF5F06400083E29 /* ISO8859_16.swift */; };
+		45A1CCB41DF5F06400083E29 /* ISO8859_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC711DF5F06400083E29 /* ISO8859_16.swift */; };
+		45A1CCB51DF5F06400083E29 /* ISO8859_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC711DF5F06400083E29 /* ISO8859_16.swift */; };
+		45A1CCB61DF5F06400083E29 /* ISO8859_16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC711DF5F06400083E29 /* ISO8859_16.swift */; };
+		45A1CCB71DF5F06400083E29 /* ISO8859.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC721DF5F06400083E29 /* ISO8859.swift */; };
+		45A1CCB81DF5F06400083E29 /* ISO8859.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC721DF5F06400083E29 /* ISO8859.swift */; };
+		45A1CCB91DF5F06400083E29 /* ISO8859.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC721DF5F06400083E29 /* ISO8859.swift */; };
+		45A1CCBA1DF5F06400083E29 /* ISO8859.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A1CC721DF5F06400083E29 /* ISO8859.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +95,24 @@
 		45A1CC491DF5EE3500083E29 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		45A1CC4A1DF5EE3500083E29 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		45A1CC4B1DF5EE3500083E29 /* ISO8859.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8859.h; sourceTree = "<group>"; };
+		45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCodingMap.swift; sourceTree = "<group>"; };
+		45A1CC621DF5F06400083E29 /* Encoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		45A1CC631DF5F06400083E29 /* ISO8859_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_1.swift; sourceTree = "<group>"; };
+		45A1CC641DF5F06400083E29 /* ISO8859_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_2.swift; sourceTree = "<group>"; };
+		45A1CC651DF5F06400083E29 /* ISO8859_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_3.swift; sourceTree = "<group>"; };
+		45A1CC661DF5F06400083E29 /* ISO8859_4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_4.swift; sourceTree = "<group>"; };
+		45A1CC671DF5F06400083E29 /* ISO8859_5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_5.swift; sourceTree = "<group>"; };
+		45A1CC681DF5F06400083E29 /* ISO8859_6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_6.swift; sourceTree = "<group>"; };
+		45A1CC691DF5F06400083E29 /* ISO8859_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_7.swift; sourceTree = "<group>"; };
+		45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_8.swift; sourceTree = "<group>"; };
+		45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_9.swift; sourceTree = "<group>"; };
+		45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_10.swift; sourceTree = "<group>"; };
+		45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_11.swift; sourceTree = "<group>"; };
+		45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_13.swift; sourceTree = "<group>"; };
+		45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_14.swift; sourceTree = "<group>"; };
+		45A1CC701DF5F06400083E29 /* ISO8859_15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_15.swift; sourceTree = "<group>"; };
+		45A1CC711DF5F06400083E29 /* ISO8859_16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859_16.swift; sourceTree = "<group>"; };
+		45A1CC721DF5F06400083E29 /* ISO8859.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8859.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +169,24 @@
 		45A1CC461DF5EE3500083E29 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				45A1CC621DF5F06400083E29 /* Encoding.swift */,
+				45A1CC721DF5F06400083E29 /* ISO8859.swift */,
+				45A1CC611DF5F06400083E29 /* CharacterCodingMap.swift */,
+				45A1CC631DF5F06400083E29 /* ISO8859_1.swift */,
+				45A1CC641DF5F06400083E29 /* ISO8859_2.swift */,
+				45A1CC651DF5F06400083E29 /* ISO8859_3.swift */,
+				45A1CC661DF5F06400083E29 /* ISO8859_4.swift */,
+				45A1CC671DF5F06400083E29 /* ISO8859_5.swift */,
+				45A1CC681DF5F06400083E29 /* ISO8859_6.swift */,
+				45A1CC691DF5F06400083E29 /* ISO8859_7.swift */,
+				45A1CC6A1DF5F06400083E29 /* ISO8859_8.swift */,
+				45A1CC6B1DF5F06400083E29 /* ISO8859_9.swift */,
+				45A1CC6C1DF5F06400083E29 /* ISO8859_10.swift */,
+				45A1CC6D1DF5F06400083E29 /* ISO8859_11.swift */,
+				45A1CC6E1DF5F06400083E29 /* ISO8859_13.swift */,
+				45A1CC6F1DF5F06400083E29 /* ISO8859_14.swift */,
+				45A1CC701DF5F06400083E29 /* ISO8859_15.swift */,
+				45A1CC711DF5F06400083E29 /* ISO8859_16.swift */,
 				45A1CC601DF5F02000083E29 /* Supporting Files */,
 			);
 			path = Sources;
@@ -216,18 +324,22 @@
 				TargetAttributes = {
 					45A1CC151DF5ED3100083E29 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					45A1CC231DF5ED4400083E29 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					45A1CC301DF5ED5000083E29 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					45A1CC3D1DF5ED8100083E29 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -288,6 +400,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1CC931DF5F06400083E29 /* ISO8859_7.swift in Sources */,
+				45A1CCA71DF5F06400083E29 /* ISO8859_13.swift in Sources */,
+				45A1CC8F1DF5F06400083E29 /* ISO8859_6.swift in Sources */,
+				45A1CC7F1DF5F06400083E29 /* ISO8859_2.swift in Sources */,
+				45A1CCA31DF5F06400083E29 /* ISO8859_11.swift in Sources */,
+				45A1CC9B1DF5F06400083E29 /* ISO8859_9.swift in Sources */,
+				45A1CCB31DF5F06400083E29 /* ISO8859_16.swift in Sources */,
+				45A1CC831DF5F06400083E29 /* ISO8859_3.swift in Sources */,
+				45A1CC971DF5F06400083E29 /* ISO8859_8.swift in Sources */,
+				45A1CCAB1DF5F06400083E29 /* ISO8859_14.swift in Sources */,
+				45A1CCAF1DF5F06400083E29 /* ISO8859_15.swift in Sources */,
+				45A1CCB71DF5F06400083E29 /* ISO8859.swift in Sources */,
+				45A1CC871DF5F06400083E29 /* ISO8859_4.swift in Sources */,
+				45A1CC7B1DF5F06400083E29 /* ISO8859_1.swift in Sources */,
+				45A1CC9F1DF5F06400083E29 /* ISO8859_10.swift in Sources */,
+				45A1CC771DF5F06400083E29 /* Encoding.swift in Sources */,
+				45A1CC731DF5F06400083E29 /* CharacterCodingMap.swift in Sources */,
+				45A1CC8B1DF5F06400083E29 /* ISO8859_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +425,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1CC941DF5F06400083E29 /* ISO8859_7.swift in Sources */,
+				45A1CCA81DF5F06400083E29 /* ISO8859_13.swift in Sources */,
+				45A1CC901DF5F06400083E29 /* ISO8859_6.swift in Sources */,
+				45A1CC801DF5F06400083E29 /* ISO8859_2.swift in Sources */,
+				45A1CCA41DF5F06400083E29 /* ISO8859_11.swift in Sources */,
+				45A1CC9C1DF5F06400083E29 /* ISO8859_9.swift in Sources */,
+				45A1CCB41DF5F06400083E29 /* ISO8859_16.swift in Sources */,
+				45A1CC841DF5F06400083E29 /* ISO8859_3.swift in Sources */,
+				45A1CC981DF5F06400083E29 /* ISO8859_8.swift in Sources */,
+				45A1CCAC1DF5F06400083E29 /* ISO8859_14.swift in Sources */,
+				45A1CCB01DF5F06400083E29 /* ISO8859_15.swift in Sources */,
+				45A1CCB81DF5F06400083E29 /* ISO8859.swift in Sources */,
+				45A1CC881DF5F06400083E29 /* ISO8859_4.swift in Sources */,
+				45A1CC7C1DF5F06400083E29 /* ISO8859_1.swift in Sources */,
+				45A1CCA01DF5F06400083E29 /* ISO8859_10.swift in Sources */,
+				45A1CC781DF5F06400083E29 /* Encoding.swift in Sources */,
+				45A1CC741DF5F06400083E29 /* CharacterCodingMap.swift in Sources */,
+				45A1CC8C1DF5F06400083E29 /* ISO8859_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +450,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1CC951DF5F06400083E29 /* ISO8859_7.swift in Sources */,
+				45A1CCA91DF5F06400083E29 /* ISO8859_13.swift in Sources */,
+				45A1CC911DF5F06400083E29 /* ISO8859_6.swift in Sources */,
+				45A1CC811DF5F06400083E29 /* ISO8859_2.swift in Sources */,
+				45A1CCA51DF5F06400083E29 /* ISO8859_11.swift in Sources */,
+				45A1CC9D1DF5F06400083E29 /* ISO8859_9.swift in Sources */,
+				45A1CCB51DF5F06400083E29 /* ISO8859_16.swift in Sources */,
+				45A1CC851DF5F06400083E29 /* ISO8859_3.swift in Sources */,
+				45A1CC991DF5F06400083E29 /* ISO8859_8.swift in Sources */,
+				45A1CCAD1DF5F06400083E29 /* ISO8859_14.swift in Sources */,
+				45A1CCB11DF5F06400083E29 /* ISO8859_15.swift in Sources */,
+				45A1CCB91DF5F06400083E29 /* ISO8859.swift in Sources */,
+				45A1CC891DF5F06400083E29 /* ISO8859_4.swift in Sources */,
+				45A1CC7D1DF5F06400083E29 /* ISO8859_1.swift in Sources */,
+				45A1CCA11DF5F06400083E29 /* ISO8859_10.swift in Sources */,
+				45A1CC791DF5F06400083E29 /* Encoding.swift in Sources */,
+				45A1CC751DF5F06400083E29 /* CharacterCodingMap.swift in Sources */,
+				45A1CC8D1DF5F06400083E29 /* ISO8859_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +475,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A1CC961DF5F06400083E29 /* ISO8859_7.swift in Sources */,
+				45A1CCAA1DF5F06400083E29 /* ISO8859_13.swift in Sources */,
+				45A1CC921DF5F06400083E29 /* ISO8859_6.swift in Sources */,
+				45A1CC821DF5F06400083E29 /* ISO8859_2.swift in Sources */,
+				45A1CCA61DF5F06400083E29 /* ISO8859_11.swift in Sources */,
+				45A1CC9E1DF5F06400083E29 /* ISO8859_9.swift in Sources */,
+				45A1CCB61DF5F06400083E29 /* ISO8859_16.swift in Sources */,
+				45A1CC861DF5F06400083E29 /* ISO8859_3.swift in Sources */,
+				45A1CC9A1DF5F06400083E29 /* ISO8859_8.swift in Sources */,
+				45A1CCAE1DF5F06400083E29 /* ISO8859_14.swift in Sources */,
+				45A1CCB21DF5F06400083E29 /* ISO8859_15.swift in Sources */,
+				45A1CCBA1DF5F06400083E29 /* ISO8859.swift in Sources */,
+				45A1CC8A1DF5F06400083E29 /* ISO8859_4.swift in Sources */,
+				45A1CC7E1DF5F06400083E29 /* ISO8859_1.swift in Sources */,
+				45A1CCA21DF5F06400083E29 /* ISO8859_10.swift in Sources */,
+				45A1CC7A1DF5F06400083E29 /* Encoding.swift in Sources */,
+				45A1CC761DF5F06400083E29 /* CharacterCodingMap.swift in Sources */,
+				45A1CC8E1DF5F06400083E29 /* ISO8859_5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
