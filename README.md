@@ -14,7 +14,7 @@ Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchO
 
 ```swift
 let encoding = ISO8859.part1
-string = String(bytes: [...], iso8859Encoding: encoding)
+let string = String(bytes: [...], iso8859Encoding: encoding)
 ```
 
 [See Examples](#examples)
