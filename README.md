@@ -20,7 +20,7 @@ Add this to your Cartfile:
 github "Cosmo/ISO8859"
 ```
 
-### Swift Package Manager
+### [Swift Package Manager](https://swift.org/package-manager)
 
 Add `ISO8859` as a dependency in your `Package.swift` file:
 
