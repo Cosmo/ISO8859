@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "45A1CC301DF5ED5000083E29"
-               BuildableName = "ISO8859 watchOS.framework"
+               BuildableName = "ISO8859.framework"
                BlueprintName = "ISO8859 watchOS"
                ReferencedContainer = "container:ISO8859.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45A1CC301DF5ED5000083E29"
-            BuildableName = "ISO8859 watchOS.framework"
+            BuildableName = "ISO8859.framework"
             BlueprintName = "ISO8859 watchOS"
             ReferencedContainer = "container:ISO8859.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "45A1CC301DF5ED5000083E29"
-            BuildableName = "ISO8859 watchOS.framework"
+            BuildableName = "ISO8859.framework"
             BlueprintName = "ISO8859 watchOS"
             ReferencedContainer = "container:ISO8859.xcodeproj">
          </BuildableReference>
