@@ -1,6 +1,6 @@
 # ISO8859
 
-<img src="https://img.shields.io/badge/swift-5-compatible-green.svg?style=flat" alt="Swift 5.1 compatible" />
+<img src="https://img.shields.io/badge/swift5-compatible-green.svg?style=flat" alt="Swift 5.1 compatible" />
 <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT" />
 
 Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchOS and macOS.
