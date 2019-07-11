@@ -1,11 +1,6 @@
 # ISO8859
 
-<img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platform iOS" />
-<img src="https://img.shields.io/badge/platform-tvOS-blue.svg?style=flat" alt="Platform tvOS" />
-<img src="https://img.shields.io/badge/platform-watchOS-blue.svg?style=flat" alt="Platform watchOS" />
-<img src="https://img.shields.io/badge/platform-macOS-blue.svg?style=flat" alt="Platform macOS" />
-<img src="https://img.shields.io/badge/swift3-compatible-green.svg?style=flat" alt="Swift 3 compatible" />
-<img src="https://img.shields.io/badge/Carthage-compatible-brightgreen.svg?style=flat" alt="Carthage compatible" />
+<img src="https://img.shields.io/badge/swift-5-compatible-green.svg?style=flat" alt="Swift 5.1 compatible" />
 <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT" />
 
 Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchOS and macOS.
@@ -14,7 +9,7 @@ Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchO
 
 ```swift
 let encoding = ISO8859.part1
-let string = String(bytes: [...], iso8859Encoding: encoding)
+let string = String([...], iso8859Encoding: encoding)
 ```
 
 [See Examples](#examples)
@@ -47,7 +42,7 @@ let string = String(bytes: [...], iso8859Encoding: encoding)
 if
     let path = Bundle.main.path(forResource: "Hebrew-Text", ofType: "txt"),
     let hebrewTextData = try? Data(contentsOf: URL(fileURLWithPath: path)),
-    let string = String(bytes: hebrewTextData, iso8859Encoding: ISO8859.part8)
+    let string = String(hebrewTextData, iso8859Encoding: ISO8859.part8)
 {
     print(string)
 }
@@ -57,7 +52,7 @@ if
 
 ```swift
 let turkishTextData = Data(bytes: [84, 252, 114, 107, 231, 101])
-if let string = String(bytes: turkishTextData, iso8859Encoding: ISO8859.part9) {
+if let string = String(turkishTextData, iso8859Encoding: ISO8859.part9) {
     print(string) // Returns "Türkçe"
 }
 ```
@@ -66,20 +61,12 @@ if let string = String(bytes: turkishTextData, iso8859Encoding: ISO8859.part9) {
 
 ```swift
 let greekTextbytes: [UInt8] = [0xE1, 0xE2, 0xE3, 0xE4]
-if let string = String(bytes: greekTextbytes, iso8859Encoding: ISO8859.part7) {
+if let string = String(greekTextbytes, iso8859Encoding: ISO8859.part7) {
     print(string) // Returns "αβγδ"
 }
 ```
 
 ## Installation
-
-### [Carthage](https://github.com/Carthage/Carthage)
-
-Add this to your Cartfile:
-
-```ruby
-github "Cosmo/ISO8859"
-```
 
 ### [Swift Package Manager](https://swift.org/package-manager)
 
@@ -90,7 +77,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/Cosmo/ISO8859.git", majorVersion: 1, minor: 0),
+        .Package(url: "https://github.com/Cosmo/ISO8859.git", majorVersion: 1, minor: 1),
     ]
 )
 ```

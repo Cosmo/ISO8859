@@ -6,10 +6,8 @@
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 public extension String {
-    public init?<S : Sequence>(bytes: S, iso8859Encoding: ISO8859) where S.Iterator.Element == UInt8 {
+    init?<S : Sequence>(_ bytes: S, iso8859Encoding: ISO8859) where S.Iterator.Element == UInt8 {
         var convertionTable: [UInt8: Int]
         
         switch iso8859Encoding {
@@ -30,7 +28,7 @@ public extension String {
         case .part16: convertionTable = CharacterCodingMap.part16
         }
         
-        let characters = bytes.flatMap{ convertionTable[$0] }.flatMap({ UnicodeScalar($0) }).flatMap({ Character($0) })
+        let characters = bytes.compactMap{ convertionTable[$0] }.compactMap({ UnicodeScalar($0) }).compactMap({ Character($0) })
         self.init(characters)
     }
 }

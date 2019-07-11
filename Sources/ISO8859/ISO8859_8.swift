@@ -1,15 +1,13 @@
 //
-//  ISO8859_3.swift
+//  ISO8859_8.swift
 //  Encoding
 //
 //  Created by Devran Uenal on 5.12.16.
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 extension CharacterCodingMap {
-    static var part3: [UInt8: Int] {
+    static var part8: [UInt8: Int] {
         get {
             return [
                 0x00: 0x0000, // NULL
@@ -173,94 +171,65 @@ extension CharacterCodingMap {
                 0x9E: 0x009E, // <control>
                 0x9F: 0x009F, // <control>
                 0xA0: 0x00A0, // NO-BREAK SPACE
-                0xA1: 0x0126, // LATIN CAPITAL LETTER H WITH STROKE
-                0xA2: 0x02D8, // BREVE
+                0xA2: 0x00A2, // CENT SIGN
                 0xA3: 0x00A3, // POUND SIGN
                 0xA4: 0x00A4, // CURRENCY SIGN
-                0xA6: 0x0124, // LATIN CAPITAL LETTER H WITH CIRCUMFLEX
+                0xA5: 0x00A5, // YEN SIGN
+                0xA6: 0x00A6, // BROKEN BAR
                 0xA7: 0x00A7, // SECTION SIGN
                 0xA8: 0x00A8, // DIAERESIS
-                0xA9: 0x0130, // LATIN CAPITAL LETTER I WITH DOT ABOVE
-                0xAA: 0x015E, // LATIN CAPITAL LETTER S WITH CEDILLA
-                0xAB: 0x011E, // LATIN CAPITAL LETTER G WITH BREVE
-                0xAC: 0x0134, // LATIN CAPITAL LETTER J WITH CIRCUMFLEX
+                0xA9: 0x00A9, // COPYRIGHT SIGN
+                0xAA: 0x00D7, // MULTIPLICATION SIGN
+                0xAB: 0x00AB, // LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+                0xAC: 0x00AC, // NOT SIGN
                 0xAD: 0x00AD, // SOFT HYPHEN
-                0xAF: 0x017B, // LATIN CAPITAL LETTER Z WITH DOT ABOVE
+                0xAE: 0x00AE, // REGISTERED SIGN
+                0xAF: 0x00AF, // MACRON
                 0xB0: 0x00B0, // DEGREE SIGN
-                0xB1: 0x0127, // LATIN SMALL LETTER H WITH STROKE
+                0xB1: 0x00B1, // PLUS-MINUS SIGN
                 0xB2: 0x00B2, // SUPERSCRIPT TWO
                 0xB3: 0x00B3, // SUPERSCRIPT THREE
                 0xB4: 0x00B4, // ACUTE ACCENT
                 0xB5: 0x00B5, // MICRO SIGN
-                0xB6: 0x0125, // LATIN SMALL LETTER H WITH CIRCUMFLEX
+                0xB6: 0x00B6, // PILCROW SIGN
                 0xB7: 0x00B7, // MIDDLE DOT
                 0xB8: 0x00B8, // CEDILLA
-                0xB9: 0x0131, // LATIN SMALL LETTER DOTLESS I
-                0xBA: 0x015F, // LATIN SMALL LETTER S WITH CEDILLA
-                0xBB: 0x011F, // LATIN SMALL LETTER G WITH BREVE
-                0xBC: 0x0135, // LATIN SMALL LETTER J WITH CIRCUMFLEX
+                0xB9: 0x00B9, // SUPERSCRIPT ONE
+                0xBA: 0x00F7, // DIVISION SIGN
+                0xBB: 0x00BB, // RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+                0xBC: 0x00BC, // VULGAR FRACTION ONE QUARTER
                 0xBD: 0x00BD, // VULGAR FRACTION ONE HALF
-                0xBF: 0x017C, // LATIN SMALL LETTER Z WITH DOT ABOVE
-                0xC0: 0x00C0, // LATIN CAPITAL LETTER A WITH GRAVE
-                0xC1: 0x00C1, // LATIN CAPITAL LETTER A WITH ACUTE
-                0xC2: 0x00C2, // LATIN CAPITAL LETTER A WITH CIRCUMFLEX
-                0xC4: 0x00C4, // LATIN CAPITAL LETTER A WITH DIAERESIS
-                0xC5: 0x010A, // LATIN CAPITAL LETTER C WITH DOT ABOVE
-                0xC6: 0x0108, // LATIN CAPITAL LETTER C WITH CIRCUMFLEX
-                0xC7: 0x00C7, // LATIN CAPITAL LETTER C WITH CEDILLA
-                0xC8: 0x00C8, // LATIN CAPITAL LETTER E WITH GRAVE
-                0xC9: 0x00C9, // LATIN CAPITAL LETTER E WITH ACUTE
-                0xCA: 0x00CA, // LATIN CAPITAL LETTER E WITH CIRCUMFLEX
-                0xCB: 0x00CB, // LATIN CAPITAL LETTER E WITH DIAERESIS
-                0xCC: 0x00CC, // LATIN CAPITAL LETTER I WITH GRAVE
-                0xCD: 0x00CD, // LATIN CAPITAL LETTER I WITH ACUTE
-                0xCE: 0x00CE, // LATIN CAPITAL LETTER I WITH CIRCUMFLEX
-                0xCF: 0x00CF, // LATIN CAPITAL LETTER I WITH DIAERESIS
-                0xD1: 0x00D1, // LATIN CAPITAL LETTER N WITH TILDE
-                0xD2: 0x00D2, // LATIN CAPITAL LETTER O WITH GRAVE
-                0xD3: 0x00D3, // LATIN CAPITAL LETTER O WITH ACUTE
-                0xD4: 0x00D4, // LATIN CAPITAL LETTER O WITH CIRCUMFLEX
-                0xD5: 0x0120, // LATIN CAPITAL LETTER G WITH DOT ABOVE
-                0xD6: 0x00D6, // LATIN CAPITAL LETTER O WITH DIAERESIS
-                0xD7: 0x00D7, // MULTIPLICATION SIGN
-                0xD8: 0x011C, // LATIN CAPITAL LETTER G WITH CIRCUMFLEX
-                0xD9: 0x00D9, // LATIN CAPITAL LETTER U WITH GRAVE
-                0xDA: 0x00DA, // LATIN CAPITAL LETTER U WITH ACUTE
-                0xDB: 0x00DB, // LATIN CAPITAL LETTER U WITH CIRCUMFLEX
-                0xDC: 0x00DC, // LATIN CAPITAL LETTER U WITH DIAERESIS
-                0xDD: 0x016C, // LATIN CAPITAL LETTER U WITH BREVE
-                0xDE: 0x015C, // LATIN CAPITAL LETTER S WITH CIRCUMFLEX
-                0xDF: 0x00DF, // LATIN SMALL LETTER SHARP S
-                0xE0: 0x00E0, // LATIN SMALL LETTER A WITH GRAVE
-                0xE1: 0x00E1, // LATIN SMALL LETTER A WITH ACUTE
-                0xE2: 0x00E2, // LATIN SMALL LETTER A WITH CIRCUMFLEX
-                0xE4: 0x00E4, // LATIN SMALL LETTER A WITH DIAERESIS
-                0xE5: 0x010B, // LATIN SMALL LETTER C WITH DOT ABOVE
-                0xE6: 0x0109, // LATIN SMALL LETTER C WITH CIRCUMFLEX
-                0xE7: 0x00E7, // LATIN SMALL LETTER C WITH CEDILLA
-                0xE8: 0x00E8, // LATIN SMALL LETTER E WITH GRAVE
-                0xE9: 0x00E9, // LATIN SMALL LETTER E WITH ACUTE
-                0xEA: 0x00EA, // LATIN SMALL LETTER E WITH CIRCUMFLEX
-                0xEB: 0x00EB, // LATIN SMALL LETTER E WITH DIAERESIS
-                0xEC: 0x00EC, // LATIN SMALL LETTER I WITH GRAVE
-                0xED: 0x00ED, // LATIN SMALL LETTER I WITH ACUTE
-                0xEE: 0x00EE, // LATIN SMALL LETTER I WITH CIRCUMFLEX
-                0xEF: 0x00EF, // LATIN SMALL LETTER I WITH DIAERESIS
-                0xF1: 0x00F1, // LATIN SMALL LETTER N WITH TILDE
-                0xF2: 0x00F2, // LATIN SMALL LETTER O WITH GRAVE
-                0xF3: 0x00F3, // LATIN SMALL LETTER O WITH ACUTE
-                0xF4: 0x00F4, // LATIN SMALL LETTER O WITH CIRCUMFLEX
-                0xF5: 0x0121, // LATIN SMALL LETTER G WITH DOT ABOVE
-                0xF6: 0x00F6, // LATIN SMALL LETTER O WITH DIAERESIS
-                0xF7: 0x00F7, // DIVISION SIGN
-                0xF8: 0x011D, // LATIN SMALL LETTER G WITH CIRCUMFLEX
-                0xF9: 0x00F9, // LATIN SMALL LETTER U WITH GRAVE
-                0xFA: 0x00FA, // LATIN SMALL LETTER U WITH ACUTE
-                0xFB: 0x00FB, // LATIN SMALL LETTER U WITH CIRCUMFLEX
-                0xFC: 0x00FC, // LATIN SMALL LETTER U WITH DIAERESIS
-                0xFD: 0x016D, // LATIN SMALL LETTER U WITH BREVE
-                0xFE: 0x015D, // LATIN SMALL LETTER S WITH CIRCUMFLEX
-                0xFF: 0x02D9, // DOT ABOVE
+                0xBE: 0x00BE, // VULGAR FRACTION THREE QUARTERS
+                0xDF: 0x2017, // DOUBLE LOW LINE
+                0xE0: 0x05D0, // HEBREW LETTER ALEF
+                0xE1: 0x05D1, // HEBREW LETTER BET
+                0xE2: 0x05D2, // HEBREW LETTER GIMEL
+                0xE3: 0x05D3, // HEBREW LETTER DALET
+                0xE4: 0x05D4, // HEBREW LETTER HE
+                0xE5: 0x05D5, // HEBREW LETTER VAV
+                0xE6: 0x05D6, // HEBREW LETTER ZAYIN
+                0xE7: 0x05D7, // HEBREW LETTER HET
+                0xE8: 0x05D8, // HEBREW LETTER TET
+                0xE9: 0x05D9, // HEBREW LETTER YOD
+                0xEA: 0x05DA, // HEBREW LETTER FINAL KAF
+                0xEB: 0x05DB, // HEBREW LETTER KAF
+                0xEC: 0x05DC, // HEBREW LETTER LAMED
+                0xED: 0x05DD, // HEBREW LETTER FINAL MEM
+                0xEE: 0x05DE, // HEBREW LETTER MEM
+                0xEF: 0x05DF, // HEBREW LETTER FINAL NUN
+                0xF0: 0x05E0, // HEBREW LETTER NUN
+                0xF1: 0x05E1, // HEBREW LETTER SAMEKH
+                0xF2: 0x05E2, // HEBREW LETTER AYIN
+                0xF3: 0x05E3, // HEBREW LETTER FINAL PE
+                0xF4: 0x05E4, // HEBREW LETTER PE
+                0xF5: 0x05E5, // HEBREW LETTER FINAL TSADI
+                0xF6: 0x05E6, // HEBREW LETTER TSADI
+                0xF7: 0x05E7, // HEBREW LETTER QOF
+                0xF8: 0x05E8, // HEBREW LETTER RESH
+                0xF9: 0x05E9, // HEBREW LETTER SHIN
+                0xFA: 0x05EA, // HEBREW LETTER TAV
+                0xFD: 0x200E, // LEFT-TO-RIGHT MARK
+                0xFE: 0x200F, // RIGHT-TO-LEFT MARK
             ]
         }
     }

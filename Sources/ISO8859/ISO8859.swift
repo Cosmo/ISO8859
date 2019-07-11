@@ -6,8 +6,6 @@
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 public enum ISO8859 {
     /// ISO8859-1: Latin 1 Western European
     case part1

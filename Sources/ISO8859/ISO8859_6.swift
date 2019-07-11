@@ -6,8 +6,6 @@
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 extension CharacterCodingMap {
     static var part6: [UInt8: Int] {
         get {

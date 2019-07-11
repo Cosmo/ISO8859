@@ -1,15 +1,13 @@
 //
-//  ISO8859_5.swift
+//  ISO8859_9.swift
 //  Encoding
 //
 //  Created by Devran Uenal on 5.12.16.
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 extension CharacterCodingMap {
-    static var part5: [UInt8: Int] {
+    static var part9: [UInt8: Int] {
         get {
             return [
                 0x00: 0x0000, // NULL
@@ -173,101 +171,101 @@ extension CharacterCodingMap {
                 0x9E: 0x009E, // <control>
                 0x9F: 0x009F, // <control>
                 0xA0: 0x00A0, // NO-BREAK SPACE
-                0xA1: 0x0401, // CYRILLIC CAPITAL LETTER IO
-                0xA2: 0x0402, // CYRILLIC CAPITAL LETTER DJE
-                0xA3: 0x0403, // CYRILLIC CAPITAL LETTER GJE
-                0xA4: 0x0404, // CYRILLIC CAPITAL LETTER UKRAINIAN IE
-                0xA5: 0x0405, // CYRILLIC CAPITAL LETTER DZE
-                0xA6: 0x0406, // CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I
-                0xA7: 0x0407, // CYRILLIC CAPITAL LETTER YI
-                0xA8: 0x0408, // CYRILLIC CAPITAL LETTER JE
-                0xA9: 0x0409, // CYRILLIC CAPITAL LETTER LJE
-                0xAA: 0x040A, // CYRILLIC CAPITAL LETTER NJE
-                0xAB: 0x040B, // CYRILLIC CAPITAL LETTER TSHE
-                0xAC: 0x040C, // CYRILLIC CAPITAL LETTER KJE
+                0xA1: 0x00A1, // INVERTED EXCLAMATION MARK
+                0xA2: 0x00A2, // CENT SIGN
+                0xA3: 0x00A3, // POUND SIGN
+                0xA4: 0x00A4, // CURRENCY SIGN
+                0xA5: 0x00A5, // YEN SIGN
+                0xA6: 0x00A6, // BROKEN BAR
+                0xA7: 0x00A7, // SECTION SIGN
+                0xA8: 0x00A8, // DIAERESIS
+                0xA9: 0x00A9, // COPYRIGHT SIGN
+                0xAA: 0x00AA, // FEMININE ORDINAL INDICATOR
+                0xAB: 0x00AB, // LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+                0xAC: 0x00AC, // NOT SIGN
                 0xAD: 0x00AD, // SOFT HYPHEN
-                0xAE: 0x040E, // CYRILLIC CAPITAL LETTER SHORT U
-                0xAF: 0x040F, // CYRILLIC CAPITAL LETTER DZHE
-                0xB0: 0x0410, // CYRILLIC CAPITAL LETTER A
-                0xB1: 0x0411, // CYRILLIC CAPITAL LETTER BE
-                0xB2: 0x0412, // CYRILLIC CAPITAL LETTER VE
-                0xB3: 0x0413, // CYRILLIC CAPITAL LETTER GHE
-                0xB4: 0x0414, // CYRILLIC CAPITAL LETTER DE
-                0xB5: 0x0415, // CYRILLIC CAPITAL LETTER IE
-                0xB6: 0x0416, // CYRILLIC CAPITAL LETTER ZHE
-                0xB7: 0x0417, // CYRILLIC CAPITAL LETTER ZE
-                0xB8: 0x0418, // CYRILLIC CAPITAL LETTER I
-                0xB9: 0x0419, // CYRILLIC CAPITAL LETTER SHORT I
-                0xBA: 0x041A, // CYRILLIC CAPITAL LETTER KA
-                0xBB: 0x041B, // CYRILLIC CAPITAL LETTER EL
-                0xBC: 0x041C, // CYRILLIC CAPITAL LETTER EM
-                0xBD: 0x041D, // CYRILLIC CAPITAL LETTER EN
-                0xBE: 0x041E, // CYRILLIC CAPITAL LETTER O
-                0xBF: 0x041F, // CYRILLIC CAPITAL LETTER PE
-                0xC0: 0x0420, // CYRILLIC CAPITAL LETTER ER
-                0xC1: 0x0421, // CYRILLIC CAPITAL LETTER ES
-                0xC2: 0x0422, // CYRILLIC CAPITAL LETTER TE
-                0xC3: 0x0423, // CYRILLIC CAPITAL LETTER U
-                0xC4: 0x0424, // CYRILLIC CAPITAL LETTER EF
-                0xC5: 0x0425, // CYRILLIC CAPITAL LETTER HA
-                0xC6: 0x0426, // CYRILLIC CAPITAL LETTER TSE
-                0xC7: 0x0427, // CYRILLIC CAPITAL LETTER CHE
-                0xC8: 0x0428, // CYRILLIC CAPITAL LETTER SHA
-                0xC9: 0x0429, // CYRILLIC CAPITAL LETTER SHCHA
-                0xCA: 0x042A, // CYRILLIC CAPITAL LETTER HARD SIGN
-                0xCB: 0x042B, // CYRILLIC CAPITAL LETTER YERU
-                0xCC: 0x042C, // CYRILLIC CAPITAL LETTER SOFT SIGN
-                0xCD: 0x042D, // CYRILLIC CAPITAL LETTER E
-                0xCE: 0x042E, // CYRILLIC CAPITAL LETTER YU
-                0xCF: 0x042F, // CYRILLIC CAPITAL LETTER YA
-                0xD0: 0x0430, // CYRILLIC SMALL LETTER A
-                0xD1: 0x0431, // CYRILLIC SMALL LETTER BE
-                0xD2: 0x0432, // CYRILLIC SMALL LETTER VE
-                0xD3: 0x0433, // CYRILLIC SMALL LETTER GHE
-                0xD4: 0x0434, // CYRILLIC SMALL LETTER DE
-                0xD5: 0x0435, // CYRILLIC SMALL LETTER IE
-                0xD6: 0x0436, // CYRILLIC SMALL LETTER ZHE
-                0xD7: 0x0437, // CYRILLIC SMALL LETTER ZE
-                0xD8: 0x0438, // CYRILLIC SMALL LETTER I
-                0xD9: 0x0439, // CYRILLIC SMALL LETTER SHORT I
-                0xDA: 0x043A, // CYRILLIC SMALL LETTER KA
-                0xDB: 0x043B, // CYRILLIC SMALL LETTER EL
-                0xDC: 0x043C, // CYRILLIC SMALL LETTER EM
-                0xDD: 0x043D, // CYRILLIC SMALL LETTER EN
-                0xDE: 0x043E, // CYRILLIC SMALL LETTER O
-                0xDF: 0x043F, // CYRILLIC SMALL LETTER PE
-                0xE0: 0x0440, // CYRILLIC SMALL LETTER ER
-                0xE1: 0x0441, // CYRILLIC SMALL LETTER ES
-                0xE2: 0x0442, // CYRILLIC SMALL LETTER TE
-                0xE3: 0x0443, // CYRILLIC SMALL LETTER U
-                0xE4: 0x0444, // CYRILLIC SMALL LETTER EF
-                0xE5: 0x0445, // CYRILLIC SMALL LETTER HA
-                0xE6: 0x0446, // CYRILLIC SMALL LETTER TSE
-                0xE7: 0x0447, // CYRILLIC SMALL LETTER CHE
-                0xE8: 0x0448, // CYRILLIC SMALL LETTER SHA
-                0xE9: 0x0449, // CYRILLIC SMALL LETTER SHCHA
-                0xEA: 0x044A, // CYRILLIC SMALL LETTER HARD SIGN
-                0xEB: 0x044B, // CYRILLIC SMALL LETTER YERU
-                0xEC: 0x044C, // CYRILLIC SMALL LETTER SOFT SIGN
-                0xED: 0x044D, // CYRILLIC SMALL LETTER E
-                0xEE: 0x044E, // CYRILLIC SMALL LETTER YU
-                0xEF: 0x044F, // CYRILLIC SMALL LETTER YA
-                0xF0: 0x2116, // NUMERO SIGN
-                0xF1: 0x0451, // CYRILLIC SMALL LETTER IO
-                0xF2: 0x0452, // CYRILLIC SMALL LETTER DJE
-                0xF3: 0x0453, // CYRILLIC SMALL LETTER GJE
-                0xF4: 0x0454, // CYRILLIC SMALL LETTER UKRAINIAN IE
-                0xF5: 0x0455, // CYRILLIC SMALL LETTER DZE
-                0xF6: 0x0456, // CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I
-                0xF7: 0x0457, // CYRILLIC SMALL LETTER YI
-                0xF8: 0x0458, // CYRILLIC SMALL LETTER JE
-                0xF9: 0x0459, // CYRILLIC SMALL LETTER LJE
-                0xFA: 0x045A, // CYRILLIC SMALL LETTER NJE
-                0xFB: 0x045B, // CYRILLIC SMALL LETTER TSHE
-                0xFC: 0x045C, // CYRILLIC SMALL LETTER KJE
-                0xFD: 0x00A7, // SECTION SIGN
-                0xFE: 0x045E, // CYRILLIC SMALL LETTER SHORT U
-                0xFF: 0x045F, // CYRILLIC SMALL LETTER DZHE
+                0xAE: 0x00AE, // REGISTERED SIGN
+                0xAF: 0x00AF, // MACRON
+                0xB0: 0x00B0, // DEGREE SIGN
+                0xB1: 0x00B1, // PLUS-MINUS SIGN
+                0xB2: 0x00B2, // SUPERSCRIPT TWO
+                0xB3: 0x00B3, // SUPERSCRIPT THREE
+                0xB4: 0x00B4, // ACUTE ACCENT
+                0xB5: 0x00B5, // MICRO SIGN
+                0xB6: 0x00B6, // PILCROW SIGN
+                0xB7: 0x00B7, // MIDDLE DOT
+                0xB8: 0x00B8, // CEDILLA
+                0xB9: 0x00B9, // SUPERSCRIPT ONE
+                0xBA: 0x00BA, // MASCULINE ORDINAL INDICATOR
+                0xBB: 0x00BB, // RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+                0xBC: 0x00BC, // VULGAR FRACTION ONE QUARTER
+                0xBD: 0x00BD, // VULGAR FRACTION ONE HALF
+                0xBE: 0x00BE, // VULGAR FRACTION THREE QUARTERS
+                0xBF: 0x00BF, // INVERTED QUESTION MARK
+                0xC0: 0x00C0, // LATIN CAPITAL LETTER A WITH GRAVE
+                0xC1: 0x00C1, // LATIN CAPITAL LETTER A WITH ACUTE
+                0xC2: 0x00C2, // LATIN CAPITAL LETTER A WITH CIRCUMFLEX
+                0xC3: 0x00C3, // LATIN CAPITAL LETTER A WITH TILDE
+                0xC4: 0x00C4, // LATIN CAPITAL LETTER A WITH DIAERESIS
+                0xC5: 0x00C5, // LATIN CAPITAL LETTER A WITH RING ABOVE
+                0xC6: 0x00C6, // LATIN CAPITAL LETTER AE
+                0xC7: 0x00C7, // LATIN CAPITAL LETTER C WITH CEDILLA
+                0xC8: 0x00C8, // LATIN CAPITAL LETTER E WITH GRAVE
+                0xC9: 0x00C9, // LATIN CAPITAL LETTER E WITH ACUTE
+                0xCA: 0x00CA, // LATIN CAPITAL LETTER E WITH CIRCUMFLEX
+                0xCB: 0x00CB, // LATIN CAPITAL LETTER E WITH DIAERESIS
+                0xCC: 0x00CC, // LATIN CAPITAL LETTER I WITH GRAVE
+                0xCD: 0x00CD, // LATIN CAPITAL LETTER I WITH ACUTE
+                0xCE: 0x00CE, // LATIN CAPITAL LETTER I WITH CIRCUMFLEX
+                0xCF: 0x00CF, // LATIN CAPITAL LETTER I WITH DIAERESIS
+                0xD0: 0x011E, // LATIN CAPITAL LETTER G WITH BREVE
+                0xD1: 0x00D1, // LATIN CAPITAL LETTER N WITH TILDE
+                0xD2: 0x00D2, // LATIN CAPITAL LETTER O WITH GRAVE
+                0xD3: 0x00D3, // LATIN CAPITAL LETTER O WITH ACUTE
+                0xD4: 0x00D4, // LATIN CAPITAL LETTER O WITH CIRCUMFLEX
+                0xD5: 0x00D5, // LATIN CAPITAL LETTER O WITH TILDE
+                0xD6: 0x00D6, // LATIN CAPITAL LETTER O WITH DIAERESIS
+                0xD7: 0x00D7, // MULTIPLICATION SIGN
+                0xD8: 0x00D8, // LATIN CAPITAL LETTER O WITH STROKE
+                0xD9: 0x00D9, // LATIN CAPITAL LETTER U WITH GRAVE
+                0xDA: 0x00DA, // LATIN CAPITAL LETTER U WITH ACUTE
+                0xDB: 0x00DB, // LATIN CAPITAL LETTER U WITH CIRCUMFLEX
+                0xDC: 0x00DC, // LATIN CAPITAL LETTER U WITH DIAERESIS
+                0xDD: 0x0130, // LATIN CAPITAL LETTER I WITH DOT ABOVE
+                0xDE: 0x015E, // LATIN CAPITAL LETTER S WITH CEDILLA
+                0xDF: 0x00DF, // LATIN SMALL LETTER SHARP S
+                0xE0: 0x00E0, // LATIN SMALL LETTER A WITH GRAVE
+                0xE1: 0x00E1, // LATIN SMALL LETTER A WITH ACUTE
+                0xE2: 0x00E2, // LATIN SMALL LETTER A WITH CIRCUMFLEX
+                0xE3: 0x00E3, // LATIN SMALL LETTER A WITH TILDE
+                0xE4: 0x00E4, // LATIN SMALL LETTER A WITH DIAERESIS
+                0xE5: 0x00E5, // LATIN SMALL LETTER A WITH RING ABOVE
+                0xE6: 0x00E6, // LATIN SMALL LETTER AE
+                0xE7: 0x00E7, // LATIN SMALL LETTER C WITH CEDILLA
+                0xE8: 0x00E8, // LATIN SMALL LETTER E WITH GRAVE
+                0xE9: 0x00E9, // LATIN SMALL LETTER E WITH ACUTE
+                0xEA: 0x00EA, // LATIN SMALL LETTER E WITH CIRCUMFLEX
+                0xEB: 0x00EB, // LATIN SMALL LETTER E WITH DIAERESIS
+                0xEC: 0x00EC, // LATIN SMALL LETTER I WITH GRAVE
+                0xED: 0x00ED, // LATIN SMALL LETTER I WITH ACUTE
+                0xEE: 0x00EE, // LATIN SMALL LETTER I WITH CIRCUMFLEX
+                0xEF: 0x00EF, // LATIN SMALL LETTER I WITH DIAERESIS
+                0xF0: 0x011F, // LATIN SMALL LETTER G WITH BREVE
+                0xF1: 0x00F1, // LATIN SMALL LETTER N WITH TILDE
+                0xF2: 0x00F2, // LATIN SMALL LETTER O WITH GRAVE
+                0xF3: 0x00F3, // LATIN SMALL LETTER O WITH ACUTE
+                0xF4: 0x00F4, // LATIN SMALL LETTER O WITH CIRCUMFLEX
+                0xF5: 0x00F5, // LATIN SMALL LETTER O WITH TILDE
+                0xF6: 0x00F6, // LATIN SMALL LETTER O WITH DIAERESIS
+                0xF7: 0x00F7, // DIVISION SIGN
+                0xF8: 0x00F8, // LATIN SMALL LETTER O WITH STROKE
+                0xF9: 0x00F9, // LATIN SMALL LETTER U WITH GRAVE
+                0xFA: 0x00FA, // LATIN SMALL LETTER U WITH ACUTE
+                0xFB: 0x00FB, // LATIN SMALL LETTER U WITH CIRCUMFLEX
+                0xFC: 0x00FC, // LATIN SMALL LETTER U WITH DIAERESIS
+                0xFD: 0x0131, // LATIN SMALL LETTER DOTLESS I
+                0xFE: 0x015F, // LATIN SMALL LETTER S WITH CEDILLA
+                0xFF: 0x00FF, // LATIN SMALL LETTER Y WITH DIAERESIS
             ]
         }
     }

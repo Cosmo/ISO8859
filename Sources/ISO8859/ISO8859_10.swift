@@ -1,15 +1,13 @@
 //
-//  ISO8859_13.swift
+//  ISO8859_10.swift
 //  Encoding
 //
 //  Created by Devran Uenal on 5.12.16.
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 extension CharacterCodingMap {
-    static var part13: [UInt8: Int] {
+    static var part10: [UInt8: Int] {
         get {
             return [
                 0x00: 0x0000, // NULL
@@ -173,101 +171,101 @@ extension CharacterCodingMap {
                 0x9E: 0x009E, // <control>
                 0x9F: 0x009F, // <control>
                 0xA0: 0x00A0, // NO-BREAK SPACE
-                0xA1: 0x201D, // RIGHT DOUBLE QUOTATION MARK
-                0xA2: 0x00A2, // CENT SIGN
-                0xA3: 0x00A3, // POUND SIGN
-                0xA4: 0x00A4, // CURRENCY SIGN
-                0xA5: 0x201E, // DOUBLE LOW-9 QUOTATION MARK
-                0xA6: 0x00A6, // BROKEN BAR
+                0xA1: 0x0104, // LATIN CAPITAL LETTER A WITH OGONEK
+                0xA2: 0x0112, // LATIN CAPITAL LETTER E WITH MACRON
+                0xA3: 0x0122, // LATIN CAPITAL LETTER G WITH CEDILLA
+                0xA4: 0x012A, // LATIN CAPITAL LETTER I WITH MACRON
+                0xA5: 0x0128, // LATIN CAPITAL LETTER I WITH TILDE
+                0xA6: 0x0136, // LATIN CAPITAL LETTER K WITH CEDILLA
                 0xA7: 0x00A7, // SECTION SIGN
-                0xA8: 0x00D8, // LATIN CAPITAL LETTER O WITH STROKE
-                0xA9: 0x00A9, // COPYRIGHT SIGN
-                0xAA: 0x0156, // LATIN CAPITAL LETTER R WITH CEDILLA
-                0xAB: 0x00AB, // LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-                0xAC: 0x00AC, // NOT SIGN
+                0xA8: 0x013B, // LATIN CAPITAL LETTER L WITH CEDILLA
+                0xA9: 0x0110, // LATIN CAPITAL LETTER D WITH STROKE
+                0xAA: 0x0160, // LATIN CAPITAL LETTER S WITH CARON
+                0xAB: 0x0166, // LATIN CAPITAL LETTER T WITH STROKE
+                0xAC: 0x017D, // LATIN CAPITAL LETTER Z WITH CARON
                 0xAD: 0x00AD, // SOFT HYPHEN
-                0xAE: 0x00AE, // REGISTERED SIGN
-                0xAF: 0x00C6, // LATIN CAPITAL LETTER AE
+                0xAE: 0x016A, // LATIN CAPITAL LETTER U WITH MACRON
+                0xAF: 0x014A, // LATIN CAPITAL LETTER ENG
                 0xB0: 0x00B0, // DEGREE SIGN
-                0xB1: 0x00B1, // PLUS-MINUS SIGN
-                0xB2: 0x00B2, // SUPERSCRIPT TWO
-                0xB3: 0x00B3, // SUPERSCRIPT THREE
-                0xB4: 0x201C, // LEFT DOUBLE QUOTATION MARK
-                0xB5: 0x00B5, // MICRO SIGN
-                0xB6: 0x00B6, // PILCROW SIGN
+                0xB1: 0x0105, // LATIN SMALL LETTER A WITH OGONEK
+                0xB2: 0x0113, // LATIN SMALL LETTER E WITH MACRON
+                0xB3: 0x0123, // LATIN SMALL LETTER G WITH CEDILLA
+                0xB4: 0x012B, // LATIN SMALL LETTER I WITH MACRON
+                0xB5: 0x0129, // LATIN SMALL LETTER I WITH TILDE
+                0xB6: 0x0137, // LATIN SMALL LETTER K WITH CEDILLA
                 0xB7: 0x00B7, // MIDDLE DOT
-                0xB8: 0x00F8, // LATIN SMALL LETTER O WITH STROKE
-                0xB9: 0x00B9, // SUPERSCRIPT ONE
-                0xBA: 0x0157, // LATIN SMALL LETTER R WITH CEDILLA
-                0xBB: 0x00BB, // RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-                0xBC: 0x00BC, // VULGAR FRACTION ONE QUARTER
-                0xBD: 0x00BD, // VULGAR FRACTION ONE HALF
-                0xBE: 0x00BE, // VULGAR FRACTION THREE QUARTERS
-                0xBF: 0x00E6, // LATIN SMALL LETTER AE
-                0xC0: 0x0104, // LATIN CAPITAL LETTER A WITH OGONEK
-                0xC1: 0x012E, // LATIN CAPITAL LETTER I WITH OGONEK
-                0xC2: 0x0100, // LATIN CAPITAL LETTER A WITH MACRON
-                0xC3: 0x0106, // LATIN CAPITAL LETTER C WITH ACUTE
+                0xB8: 0x013C, // LATIN SMALL LETTER L WITH CEDILLA
+                0xB9: 0x0111, // LATIN SMALL LETTER D WITH STROKE
+                0xBA: 0x0161, // LATIN SMALL LETTER S WITH CARON
+                0xBB: 0x0167, // LATIN SMALL LETTER T WITH STROKE
+                0xBC: 0x017E, // LATIN SMALL LETTER Z WITH CARON
+                0xBD: 0x2015, // HORIZONTAL BAR
+                0xBE: 0x016B, // LATIN SMALL LETTER U WITH MACRON
+                0xBF: 0x014B, // LATIN SMALL LETTER ENG
+                0xC0: 0x0100, // LATIN CAPITAL LETTER A WITH MACRON
+                0xC1: 0x00C1, // LATIN CAPITAL LETTER A WITH ACUTE
+                0xC2: 0x00C2, // LATIN CAPITAL LETTER A WITH CIRCUMFLEX
+                0xC3: 0x00C3, // LATIN CAPITAL LETTER A WITH TILDE
                 0xC4: 0x00C4, // LATIN CAPITAL LETTER A WITH DIAERESIS
                 0xC5: 0x00C5, // LATIN CAPITAL LETTER A WITH RING ABOVE
-                0xC6: 0x0118, // LATIN CAPITAL LETTER E WITH OGONEK
-                0xC7: 0x0112, // LATIN CAPITAL LETTER E WITH MACRON
+                0xC6: 0x00C6, // LATIN CAPITAL LETTER AE
+                0xC7: 0x012E, // LATIN CAPITAL LETTER I WITH OGONEK
                 0xC8: 0x010C, // LATIN CAPITAL LETTER C WITH CARON
                 0xC9: 0x00C9, // LATIN CAPITAL LETTER E WITH ACUTE
-                0xCA: 0x0179, // LATIN CAPITAL LETTER Z WITH ACUTE
-                0xCB: 0x0116, // LATIN CAPITAL LETTER E WITH DOT ABOVE
-                0xCC: 0x0122, // LATIN CAPITAL LETTER G WITH CEDILLA
-                0xCD: 0x0136, // LATIN CAPITAL LETTER K WITH CEDILLA
-                0xCE: 0x012A, // LATIN CAPITAL LETTER I WITH MACRON
-                0xCF: 0x013B, // LATIN CAPITAL LETTER L WITH CEDILLA
-                0xD0: 0x0160, // LATIN CAPITAL LETTER S WITH CARON
-                0xD1: 0x0143, // LATIN CAPITAL LETTER N WITH ACUTE
-                0xD2: 0x0145, // LATIN CAPITAL LETTER N WITH CEDILLA
+                0xCA: 0x0118, // LATIN CAPITAL LETTER E WITH OGONEK
+                0xCB: 0x00CB, // LATIN CAPITAL LETTER E WITH DIAERESIS
+                0xCC: 0x0116, // LATIN CAPITAL LETTER E WITH DOT ABOVE
+                0xCD: 0x00CD, // LATIN CAPITAL LETTER I WITH ACUTE
+                0xCE: 0x00CE, // LATIN CAPITAL LETTER I WITH CIRCUMFLEX
+                0xCF: 0x00CF, // LATIN CAPITAL LETTER I WITH DIAERESIS
+                0xD0: 0x00D0, // LATIN CAPITAL LETTER ETH (Icelandic)
+                0xD1: 0x0145, // LATIN CAPITAL LETTER N WITH CEDILLA
+                0xD2: 0x014C, // LATIN CAPITAL LETTER O WITH MACRON
                 0xD3: 0x00D3, // LATIN CAPITAL LETTER O WITH ACUTE
-                0xD4: 0x014C, // LATIN CAPITAL LETTER O WITH MACRON
+                0xD4: 0x00D4, // LATIN CAPITAL LETTER O WITH CIRCUMFLEX
                 0xD5: 0x00D5, // LATIN CAPITAL LETTER O WITH TILDE
                 0xD6: 0x00D6, // LATIN CAPITAL LETTER O WITH DIAERESIS
-                0xD7: 0x00D7, // MULTIPLICATION SIGN
-                0xD8: 0x0172, // LATIN CAPITAL LETTER U WITH OGONEK
-                0xD9: 0x0141, // LATIN CAPITAL LETTER L WITH STROKE
-                0xDA: 0x015A, // LATIN CAPITAL LETTER S WITH ACUTE
-                0xDB: 0x016A, // LATIN CAPITAL LETTER U WITH MACRON
+                0xD7: 0x0168, // LATIN CAPITAL LETTER U WITH TILDE
+                0xD8: 0x00D8, // LATIN CAPITAL LETTER O WITH STROKE
+                0xD9: 0x0172, // LATIN CAPITAL LETTER U WITH OGONEK
+                0xDA: 0x00DA, // LATIN CAPITAL LETTER U WITH ACUTE
+                0xDB: 0x00DB, // LATIN CAPITAL LETTER U WITH CIRCUMFLEX
                 0xDC: 0x00DC, // LATIN CAPITAL LETTER U WITH DIAERESIS
-                0xDD: 0x017B, // LATIN CAPITAL LETTER Z WITH DOT ABOVE
-                0xDE: 0x017D, // LATIN CAPITAL LETTER Z WITH CARON
+                0xDD: 0x00DD, // LATIN CAPITAL LETTER Y WITH ACUTE
+                0xDE: 0x00DE, // LATIN CAPITAL LETTER THORN (Icelandic)
                 0xDF: 0x00DF, // LATIN SMALL LETTER SHARP S (German)
-                0xE0: 0x0105, // LATIN SMALL LETTER A WITH OGONEK
-                0xE1: 0x012F, // LATIN SMALL LETTER I WITH OGONEK
-                0xE2: 0x0101, // LATIN SMALL LETTER A WITH MACRON
-                0xE3: 0x0107, // LATIN SMALL LETTER C WITH ACUTE
+                0xE0: 0x0101, // LATIN SMALL LETTER A WITH MACRON
+                0xE1: 0x00E1, // LATIN SMALL LETTER A WITH ACUTE
+                0xE2: 0x00E2, // LATIN SMALL LETTER A WITH CIRCUMFLEX
+                0xE3: 0x00E3, // LATIN SMALL LETTER A WITH TILDE
                 0xE4: 0x00E4, // LATIN SMALL LETTER A WITH DIAERESIS
                 0xE5: 0x00E5, // LATIN SMALL LETTER A WITH RING ABOVE
-                0xE6: 0x0119, // LATIN SMALL LETTER E WITH OGONEK
-                0xE7: 0x0113, // LATIN SMALL LETTER E WITH MACRON
+                0xE6: 0x00E6, // LATIN SMALL LETTER AE
+                0xE7: 0x012F, // LATIN SMALL LETTER I WITH OGONEK
                 0xE8: 0x010D, // LATIN SMALL LETTER C WITH CARON
                 0xE9: 0x00E9, // LATIN SMALL LETTER E WITH ACUTE
-                0xEA: 0x017A, // LATIN SMALL LETTER Z WITH ACUTE
-                0xEB: 0x0117, // LATIN SMALL LETTER E WITH DOT ABOVE
-                0xEC: 0x0123, // LATIN SMALL LETTER G WITH CEDILLA
-                0xED: 0x0137, // LATIN SMALL LETTER K WITH CEDILLA
-                0xEE: 0x012B, // LATIN SMALL LETTER I WITH MACRON
-                0xEF: 0x013C, // LATIN SMALL LETTER L WITH CEDILLA
-                0xF0: 0x0161, // LATIN SMALL LETTER S WITH CARON
-                0xF1: 0x0144, // LATIN SMALL LETTER N WITH ACUTE
-                0xF2: 0x0146, // LATIN SMALL LETTER N WITH CEDILLA
+                0xEA: 0x0119, // LATIN SMALL LETTER E WITH OGONEK
+                0xEB: 0x00EB, // LATIN SMALL LETTER E WITH DIAERESIS
+                0xEC: 0x0117, // LATIN SMALL LETTER E WITH DOT ABOVE
+                0xED: 0x00ED, // LATIN SMALL LETTER I WITH ACUTE
+                0xEE: 0x00EE, // LATIN SMALL LETTER I WITH CIRCUMFLEX
+                0xEF: 0x00EF, // LATIN SMALL LETTER I WITH DIAERESIS
+                0xF0: 0x00F0, // LATIN SMALL LETTER ETH (Icelandic)
+                0xF1: 0x0146, // LATIN SMALL LETTER N WITH CEDILLA
+                0xF2: 0x014D, // LATIN SMALL LETTER O WITH MACRON
                 0xF3: 0x00F3, // LATIN SMALL LETTER O WITH ACUTE
-                0xF4: 0x014D, // LATIN SMALL LETTER O WITH MACRON
+                0xF4: 0x00F4, // LATIN SMALL LETTER O WITH CIRCUMFLEX
                 0xF5: 0x00F5, // LATIN SMALL LETTER O WITH TILDE
                 0xF6: 0x00F6, // LATIN SMALL LETTER O WITH DIAERESIS
-                0xF7: 0x00F7, // DIVISION SIGN
-                0xF8: 0x0173, // LATIN SMALL LETTER U WITH OGONEK
-                0xF9: 0x0142, // LATIN SMALL LETTER L WITH STROKE
-                0xFA: 0x015B, // LATIN SMALL LETTER S WITH ACUTE
-                0xFB: 0x016B, // LATIN SMALL LETTER U WITH MACRON
+                0xF7: 0x0169, // LATIN SMALL LETTER U WITH TILDE
+                0xF8: 0x00F8, // LATIN SMALL LETTER O WITH STROKE
+                0xF9: 0x0173, // LATIN SMALL LETTER U WITH OGONEK
+                0xFA: 0x00FA, // LATIN SMALL LETTER U WITH ACUTE
+                0xFB: 0x00FB, // LATIN SMALL LETTER U WITH CIRCUMFLEX
                 0xFC: 0x00FC, // LATIN SMALL LETTER U WITH DIAERESIS
-                0xFD: 0x017C, // LATIN SMALL LETTER Z WITH DOT ABOVE
-                0xFE: 0x017E, // LATIN SMALL LETTER Z WITH CARON
-                0xFF: 0x2019, // RIGHT SINGLE QUOTATION MARK
+                0xFD: 0x00FD, // LATIN SMALL LETTER Y WITH ACUTE
+                0xFE: 0x00FE, // LATIN SMALL LETTER THORN (Icelandic)
+                0xFF: 0x0138, // LATIN SMALL LETTER KRA
             ]
         }
     }

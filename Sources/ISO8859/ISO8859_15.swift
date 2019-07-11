@@ -1,15 +1,13 @@
 //
-//  ISO8859_1.swift
+//  ISO8859_15.swift
 //  Encoding
 //
 //  Created by Devran Uenal on 5.12.16.
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-import Foundation
-
 extension CharacterCodingMap {
-    static var part1: [UInt8: Int] {
+    static var part15: [UInt8: Int] {
         get {
             return [
                 0x00: 0x0000, // NULL
@@ -176,11 +174,11 @@ extension CharacterCodingMap {
                 0xA1: 0x00A1, // INVERTED EXCLAMATION MARK
                 0xA2: 0x00A2, // CENT SIGN
                 0xA3: 0x00A3, // POUND SIGN
-                0xA4: 0x00A4, // CURRENCY SIGN
+                0xA4: 0x20AC, // EURO SIGN
                 0xA5: 0x00A5, // YEN SIGN
-                0xA6: 0x00A6, // BROKEN BAR
+                0xA6: 0x0160, // LATIN CAPITAL LETTER S WITH CARON
                 0xA7: 0x00A7, // SECTION SIGN
-                0xA8: 0x00A8, // DIAERESIS
+                0xA8: 0x0161, // LATIN SMALL LETTER S WITH CARON
                 0xA9: 0x00A9, // COPYRIGHT SIGN
                 0xAA: 0x00AA, // FEMININE ORDINAL INDICATOR
                 0xAB: 0x00AB, // LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
@@ -192,17 +190,17 @@ extension CharacterCodingMap {
                 0xB1: 0x00B1, // PLUS-MINUS SIGN
                 0xB2: 0x00B2, // SUPERSCRIPT TWO
                 0xB3: 0x00B3, // SUPERSCRIPT THREE
-                0xB4: 0x00B4, // ACUTE ACCENT
+                0xB4: 0x017D, // LATIN CAPITAL LETTER Z WITH CARON
                 0xB5: 0x00B5, // MICRO SIGN
                 0xB6: 0x00B6, // PILCROW SIGN
                 0xB7: 0x00B7, // MIDDLE DOT
-                0xB8: 0x00B8, // CEDILLA
+                0xB8: 0x017E, // LATIN SMALL LETTER Z WITH CARON
                 0xB9: 0x00B9, // SUPERSCRIPT ONE
                 0xBA: 0x00BA, // MASCULINE ORDINAL INDICATOR
                 0xBB: 0x00BB, // RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-                0xBC: 0x00BC, // VULGAR FRACTION ONE QUARTER
-                0xBD: 0x00BD, // VULGAR FRACTION ONE HALF
-                0xBE: 0x00BE, // VULGAR FRACTION THREE QUARTERS
+                0xBC: 0x0152, // LATIN CAPITAL LIGATURE OE
+                0xBD: 0x0153, // LATIN SMALL LIGATURE OE
+                0xBE: 0x0178, // LATIN CAPITAL LETTER Y WITH DIAERESIS
                 0xBF: 0x00BF, // INVERTED QUESTION MARK
                 0xC0: 0x00C0, // LATIN CAPITAL LETTER A WITH GRAVE
                 0xC1: 0x00C1, // LATIN CAPITAL LETTER A WITH ACUTE
@@ -220,7 +218,7 @@ extension CharacterCodingMap {
                 0xCD: 0x00CD, // LATIN CAPITAL LETTER I WITH ACUTE
                 0xCE: 0x00CE, // LATIN CAPITAL LETTER I WITH CIRCUMFLEX
                 0xCF: 0x00CF, // LATIN CAPITAL LETTER I WITH DIAERESIS
-                0xD0: 0x00D0, // LATIN CAPITAL LETTER ETH (Icelandic)
+                0xD0: 0x00D0, // LATIN CAPITAL LETTER ETH
                 0xD1: 0x00D1, // LATIN CAPITAL LETTER N WITH TILDE
                 0xD2: 0x00D2, // LATIN CAPITAL LETTER O WITH GRAVE
                 0xD3: 0x00D3, // LATIN CAPITAL LETTER O WITH ACUTE
@@ -234,8 +232,8 @@ extension CharacterCodingMap {
                 0xDB: 0x00DB, // LATIN CAPITAL LETTER U WITH CIRCUMFLEX
                 0xDC: 0x00DC, // LATIN CAPITAL LETTER U WITH DIAERESIS
                 0xDD: 0x00DD, // LATIN CAPITAL LETTER Y WITH ACUTE
-                0xDE: 0x00DE, // LATIN CAPITAL LETTER THORN (Icelandic)
-                0xDF: 0x00DF, // LATIN SMALL LETTER SHARP S (German)
+                0xDE: 0x00DE, // LATIN CAPITAL LETTER THORN
+                0xDF: 0x00DF, // LATIN SMALL LETTER SHARP S
                 0xE0: 0x00E0, // LATIN SMALL LETTER A WITH GRAVE
                 0xE1: 0x00E1, // LATIN SMALL LETTER A WITH ACUTE
                 0xE2: 0x00E2, // LATIN SMALL LETTER A WITH CIRCUMFLEX
@@ -252,7 +250,7 @@ extension CharacterCodingMap {
                 0xED: 0x00ED, // LATIN SMALL LETTER I WITH ACUTE
                 0xEE: 0x00EE, // LATIN SMALL LETTER I WITH CIRCUMFLEX
                 0xEF: 0x00EF, // LATIN SMALL LETTER I WITH DIAERESIS
-                0xF0: 0x00F0, // LATIN SMALL LETTER ETH (Icelandic)
+                0xF0: 0x00F0, // LATIN SMALL LETTER ETH
                 0xF1: 0x00F1, // LATIN SMALL LETTER N WITH TILDE
                 0xF2: 0x00F2, // LATIN SMALL LETTER O WITH GRAVE
                 0xF3: 0x00F3, // LATIN SMALL LETTER O WITH ACUTE
@@ -266,8 +264,8 @@ extension CharacterCodingMap {
                 0xFB: 0x00FB, // LATIN SMALL LETTER U WITH CIRCUMFLEX
                 0xFC: 0x00FC, // LATIN SMALL LETTER U WITH DIAERESIS
                 0xFD: 0x00FD, // LATIN SMALL LETTER Y WITH ACUTE
-                0xFE: 0x00FE, // LATIN SMALL LETTER THORN (Icelandic)
-                0xFF: 0x00FF  // LATIN SMALL LETTER Y WITH DIAERESIS
+                0xFE: 0x00FE, // LATIN SMALL LETTER THORN
+                0xFF: 0x00FF, // LATIN SMALL LETTER Y WITH DIAERESIS
             ]
         }
     }
