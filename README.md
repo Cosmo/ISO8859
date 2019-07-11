@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/swift5-compatible-green.svg?style=flat" alt="Swift 5.1 compatible" />
 <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License MIT" />
 
-Convert ISO8859 1-16 Encoded Text to String in Swift. Supports iOS, tvOS, watchOS and macOS.
+Convert ISO8859 1-16 Encoded Text to String in Swift.
 
 ## Usage
 
@@ -77,7 +77,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/Cosmo/ISO8859.git", majorVersion: 1, minor: 1),
+        .package(url: "https://github.com/Cosmo/ISO8859.git", from: "1.1.0"),
     ]
 )
 ```
