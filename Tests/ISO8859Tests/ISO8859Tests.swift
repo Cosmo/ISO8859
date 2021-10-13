@@ -8,8 +8,13 @@ final class ISO8859Tests: XCTestCase {
         // results.
         XCTAssertEqual(String([0xE1, 0xE2, 0xE3, 0xE4], iso8859Encoding: ISO8859.part7), "αβγδ")
     }
+    
+    func testInverse() {
+        XCTAssertEqual("αβγδ".data(using: ISO8859.part7), Data([0xE1, 0xE2, 0xE3, 0xE4]))
+    }
 
     static var allTests = [
         ("testExample", testExample),
+        ("testInverse", testInverse),
     ]
 }
