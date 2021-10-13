@@ -6,4 +6,4 @@
 //  Copyright © 2016 Devran Uenal. All rights reserved.
 //
 
-struct CharacterCodingMap { }
+struct CharacterCodingMap {}
